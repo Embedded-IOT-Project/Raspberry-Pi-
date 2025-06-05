@@ -1,5 +1,18 @@
 # Raspberry Pi Flask Video Streaming with Face and QR Detection
 
+
+## 🧠 Why Use Raspberry Pi?
+
+Raspberry Pi 3 B+ is used in this project as a powerful yet affordable alternative to platforms like Pixy and ESP32. 
+
+Pixy and ESP32, while suitable for lightweight detection tasks, often struggle with real-time streaming and image processing due to limited processing power and RAM. In testing, both platforms exhibited significant lag when handling live face or QR detection streams, especially when combined with camera and network tasks.
+
+Raspberry Pi offers smoother performance for real-time video analysis and web streaming using OpenCV and Flask, with better support for USB webcams, multitasking, and Python libraries.
+
+It provides a more stable and scalable solution for projects requiring moderate to complex computer vision without needing an external PC or cloud processing.
+---
+
+
 This project demonstrates real-time live video streaming on a **Raspberry Pi 3 B+** using a **USB webcam**, **Flask**, and **OpenCV**. The system supports three modes:
 
 - `face_stream.py` – Detects human faces only  
