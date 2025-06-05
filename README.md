@@ -1,7 +1,7 @@
 # Raspberry Pi Flask Video Streaming with Face and QR Detection
 
 
-## 🧠 Why Use Raspberry Pi?
+## **Why Use Raspberry Pi?**
 
 Raspberry Pi 3 B+ is used in this project as a powerful yet affordable alternative to platforms like Pixy and ESP32. 
 
@@ -10,6 +10,8 @@ Pixy and ESP32, while suitable for lightweight detection tasks, often struggle w
 Raspberry Pi offers smoother performance for real-time video analysis and web streaming using OpenCV and Flask, with better support for USB webcams, multitasking, and Python libraries.
 
 It provides a more stable and scalable solution for projects requiring moderate to complex computer vision without needing an external PC or cloud processing.
+
+
 ---
 
 
@@ -21,11 +23,11 @@ This project demonstrates real-time live video streaming on a **Raspberry Pi 3 B
 
 All streams are viewable in any browser or Android app that supports `WebView`.
 
-> ✅ Built and tested on **Raspberry Pi 3 B+** running **Raspberry Pi OS 32-bit (Full)** using **Thonny IDE**.
+> ** Built and tested on **Raspberry Pi 3 B+** running **Raspberry Pi OS 32-bit (Full)** using **Thonny IDE**.**
 
 ---
 
-## 🧰 Hardware Requirements
+##  **Hardware Requirements**
 
 - Raspberry Pi 3 B+  
 - Raspberry Pi OS 32-bit (Full version recommended)  
@@ -35,7 +37,7 @@ All streams are viewable in any browser or Android app that supports `WebView`.
 
 ---
 
-## ⚙️ Initial Setup Instructions
+##  Initial Setup Instructions
 
 1. Open the **Terminal** on the Raspberry Pi
 2. Run the following commands:
@@ -60,7 +62,7 @@ face_detector = cv2.CascadeClassifier('/home/pi/Desktop/streaming/haarcascade_fr
 
 ---
 
-🚀 Running the Project
+## **Running the Project**
 Open Thonny on Raspberry Pi
 
 Load one of the Python files:
@@ -82,7 +84,7 @@ http://your-raspberry-pi-ip:5000
 ---
 
 
-🖥️ Output
+ ## **Output**
 You will see a live video stream showing:
 
 Face detection
@@ -95,7 +97,7 @@ Face crops will be saved automatically in the detected_faces folder.
 
 ---
 
-Webcam not detected?
+## **Webcam not detected?**
 Make sure it's plugged in and check with:
 
 
@@ -107,7 +109,7 @@ Default device is /dev/video0. You can aslo try 1 if another camera is being use
 ---
 
 
-📏 Performance Tip
+## **Performance Tip**
 
 
 The video resolution is set to 640x480 for a good balance of speed and accuracy. You can change this in the code using OpenCV’s cv2.resize() or by setting:
@@ -119,4 +121,4 @@ camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 
 written by
-SHIVESH
+**SHIVESH**
